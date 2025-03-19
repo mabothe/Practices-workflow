@@ -13,6 +13,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+     GREETING: "hello from gitHub Action"
 
     steps:
       - uses: actions/checkout@v4
