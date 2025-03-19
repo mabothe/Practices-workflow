@@ -20,7 +20,7 @@ jobs:
       - name: Print name
         run: echo "nico!"
 
-         - name: Print surname
+      - name: Print surname
         run: echo "Khoza!"
 
 
